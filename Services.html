@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Vrikshub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+    <style>
+        body { background: #192235; color: #fff; font-family: 'Montserrat', Arial, sans-serif; margin: 0; }
+        .services-header { background: #192235; box-shadow: none; color: #fff; margin: 0; }
+        .services-header .container { display: flex; align-items: center; justify-content: space-between; }
+        .services-header .logo img { height: 70px; }
+        .services-header nav ul { display: flex; gap: 48px; list-style: none; margin: 0; padding: 0; }
+        .services-header nav ul li a { color: #fff; text-decoration: none; font-size: 20px; font-weight: 400; transition: color 0.3s; }
+        .services-header nav ul li a.active { font-weight: 700; }
+        .services-header .header-phone { background: #d2f365; color: #192235; border-radius: 20px; padding: 7px 25px; font-weight: 600; font-family: 'Montserrat', Arial, sans-serif; margin-left: 24px; text-decoration: none; }
+        .services-section { display: flex; align-items: flex-start; justify-content: space-between; margin: 60px auto 0 auto; max-width: 1200px; gap: 48px; }
+        .services-section .services-content { flex: 1.2; }
+        .services-section .services-image { flex: 1; }
+        .services-section .services-image img { width: 100%; max-width: 420px; border-radius: 8px; }
+        .services-title { font-size: 2.2rem; font-weight: 700; margin-bottom: 18px; color: #fff; }
+        .services-desc { font-size: 1.1rem; color: #e0e0e0; margin-bottom: 32px; }
+        .services-btn-row { display: flex; gap: 0; margin-bottom: 32px; }
+        .services-btn-row button, .services-btn-row .btn { font-family: 'Montserrat', Arial, sans-serif; font-size: 1rem; padding: 8px 0; width: 180px; border: none; outline: none; }
+        .services-btn-row .btn-light { background: #fff; color: #192235; border-radius: 2px 0 0 2px; }
+        .services-btn-row .btn-dark { background: #353c46; color: #fff; border-radius: 0 2px 2px 0; }
+        .featured-section { display: flex; align-items: flex-start; justify-content: space-between; margin: 60px auto 0 auto; max-width: 1200px; gap: 48px; }
+        .featured-section .featured-content { flex: 1.2; }
+        .featured-section .featured-image { flex: 1; }
+        .featured-section .featured-image img { width: 100%; max-width: 320px; border-radius: 8px; }
+        .featured-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 18px; color: #fff; }
+        .featured-desc { font-size: 1.1rem; color: #e0e0e0; margin-bottom: 32px; }
+        .featured-btn-row { margin-bottom: 32px; }
+        .featured-btn-row .btn-light { background: #fff; color: #192235; border-radius: 2px; font-size: 1rem; padding: 8px 0; width: 180px; border: none; outline: none; }
+        .product-grid { display: flex; gap: 32px; justify-content: flex-start; margin: 40px 0 0 0; }
+        .product-card { background: #bfc3c7; width: 180px; height: 180px; border-radius: 2px; display: flex; align-items: center; justify-content: center; color: #192235; font-size: 1rem; font-weight: 500; text-align: center; }
+        .product-card.dark { background: #232b3a; color: #fff; flex-direction: column; }
+        .product-card .product-title { font-size: 1rem; font-weight: 600; }
+        .product-card .product-desc { font-size: 0.9rem; color: #f7d86a; }
+        .footer { background-color: #e9ecef; color: #192235; border-radius: 0px; margin-top: 60px; padding: 30px 0 10px 0; }
+        .footer .container { max-width: 1200px; margin: 0 auto; }
+        .footer-logo-row { display: flex; justify-content: flex-start; align-items: center; margin-bottom: 18px; }
+        .footer-links-row { display: flex; justify-content: flex-start; gap: 24px; margin-bottom: 18px; flex-wrap: wrap; }
+        .footer-links-row a { color: #192235; text-decoration: none; font-size: 1rem; font-weight: 500; opacity: 0.8; transition: opacity 0.2s; }
+        .footer-links-row a:hover { opacity: 1; text-decoration: underline; }
+        .footer-copy-row { font-size: 0.95rem; color: #888; text-align: left; }
+    </style>
+</head>
+<body>
+    <header class="services-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/vrikshub-logo.png" alt="Vrikshub Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="Services.html" class="active">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <a href="tel:12345678910" class="header-phone">📞 12345678910</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="services-section">
+        <div class="services-content">
+            <div class="services-title">Your Logistics Solution Provider</div>
+            <div class="services-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac nisi nec lorem tincidunt facilisis.</div>
+            <div class="services-btn-row">
+                <button class="btn btn-light">Lorem Has</button>
+                <button class="btn btn-dark">Lorem Has</button>
+            </div>
+        </div>
+        <div class="services-image">
+            <img src="images/logisticsTunnel.png" alt="Logistics Tunnel">
+        </div>
+    </section>
+
+    <section class="featured-section">
+        <div class="featured-content">
+            <div class="featured-title">Featured Products</div>
+            <div class="featured-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac nisi nec lorem tincidunt facilisis.</div>
+            <div class="featured-btn-row">
+                <button class="btn btn-light">Lorem Has</button>
+            </div>
+        </div>
+        <div class="featured-image">
+            <img src="images/featuredProduct.png" alt="Featured Product">
+        </div>
+    </section>
+
+    <div class="product-grid">
+        <div class="product-card"> </div>
+        <div class="product-card dark">
+            <div class="product-title">Lorem Ipsum Lorem Ipsum</div>
+            <div class="product-desc">Lorem Ipsum Lorem &gt;</div>
+        </div>
+        <div class="product-card"> </div>
+        <div class="product-card"> </div>
+        <div class="product-card dark"> 
+            <div class="product-title">Lorem Ipsum Lorem Ipsum</div>
+            <div class="product-desc">Lorem Ipsum Lorem &gt;</div>
+        </div>
+        <div class="product-card"> </div>
+    </div>
+
+    <footer style="background-color:#e9ecef; color:#192235; border-radius:0px; margin-top:60px; padding:30px 0 10px 0;">
+        <div class="container">
+            <div class="footer-logo-row" style="display: flex; align-items: center; gap: 32px;">
+                <img src="images/vrikshub-logo.png" alt="Vrikshub Logo" style="height: 70px;">
+                <div style="display: flex; align-items: center; gap: 40px;">
+                    <div class="footer-links-row" style="display: flex; gap: 24px; flex-wrap: wrap; align-items: center;">
+                        <a href="#">Lorem</a>
+                        <a href="#">Lorem Us</a>
+                        <a href="#">Lorem Has</a>
+                        <a href="#">Has been</a>
+                        <a href="#">Ipsum Has</a>
+                        <a href="#">Lorem Ipsum</a>
+                    </div>
+                    <div class="footer-copy-row" style="font-size: 0.50rem; color: #888; text-align: right; margin-left: 30px; min-width: 220px;">
+                        <span>© Lorem Ipsum has been the industry's standard dummy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

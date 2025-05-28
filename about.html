@@ -5,28 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Vrikshub</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
+<body class="about-page" style="margin:0px; padding:0px;border-radius: 0px;">
+    <header style="background:#192235; box-shadow:none; color:#fff; margin:0;">
         <div class="container">
             <div class="logo">
                 <img src="images/vrikshub-logo.png" alt="Vrikshub Logo">
             </div>
             <nav class="header-nav-group">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html" class="active">About us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact us</a></li>
+                <ul style="margin:0;">
+                    <li><a href="index.html" style="color:#fff;">Home</a></li>
+                    <li><a href="about.html" class="active" style="color:#fff; font-weight:700;">About Us</a></li>
+                    <li><a href="Services.html" style="color:#fff;">Services</a></li>
+                    <li><a href="contact.html" style="color:#fff;">Contact Us</a></li>
                 </ul>
-                <a href="tel:12345678910" class="header-phone">📞 12345678910</a>
+                <a href="tel:12345678910" class="header-phone" style="background:#d2f365; color:#192235; border-radius:20px; padding:7px 25px; font-weight:600; font-family:'Montserrat', Arial, sans-serif; margin-left:24px;">📞 12345678910</a>
             </nav>
         </div>
     </header>
 
-    <section class="about-hero">
+    <section class="about-hero" style="margin-top:0; padding-top:0;">
         <div class="container">
-            <h2 class="about-title">ABOUT <span class="about-title-bold">US</span></h2>
+            <h2 class="about-title" style="margin-top:0px;">ABOU<span class="about-title-bold">T US</span></h2>
             <div class="about-subtitle-row">
                 <span class="about-tilde">~</span>
                 <span class="about-who">WHO WE ARE</span>
@@ -62,21 +63,23 @@
         </div>
     </section>
 
-    <footer>
+    <footer style="background-color:#e9ecef; color:#192235; border-radius:0px; margin-top:60px; padding:30px 0 10px 0;">
         <div class="container">
-            <div class="footer-logo-row">
-                <img src="images/vrikshub-logo.png" alt="Vrikshub Logo" style="height: 50px;">
-            </div>
-            <div class="footer-links-row">
-                <a href="#">Lorem</a>
-                <a href="#">Lorem Us</a>
-                <a href="#">Lorem Has</a>
-                <a href="#">Has been</a>
-                <a href="#">Ipsum Has</a>
-                <a href="#">Lorem Ipsum</a>
-            </div>
-            <div class="footer-copy-row">
-                <span>© Lorem Ipsum has been the industry's standard dummy</span>
+            <div class="footer-logo-row" style="display: flex; align-items: center; gap: 32px;">
+                <img src="images/vrikshub-logo.png" alt="Vrikshub Logo" style="height: 70px;">
+                <div style="display: flex; align-items: center; gap: 40px;">
+                    <div class="footer-links-row" style="display: flex; gap: 24px; flex-wrap: wrap; align-items: center;">
+                        <a href="#">Lorem</a>
+                        <a href="#">Lorem Us</a>
+                        <a href="#">Lorem Has</a>
+                        <a href="#">Has been</a>
+                        <a href="#">Ipsum Has</a>
+                        <a href="#">Lorem Ipsum</a>
+                    </div>
+                    <div class="footer-copy-row" style="font-size: 0.50rem; color: #888; text-align: right; margin-left: 30px; min-width: 220px;">
+                        <span>© Lorem Ipsum has been the industry's standard dummy</span>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
